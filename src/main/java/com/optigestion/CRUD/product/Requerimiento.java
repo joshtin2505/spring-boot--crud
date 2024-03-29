@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table
-public class Product {
+public class Requerimiento {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -17,20 +17,20 @@ public class Product {
     private double price;
     private int quantity;
 
-    public Product(int id, String name, String description, double price, int quantity) {
+    public Requerimiento(int id, String name, String description, double price, int quantity) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.price = price;
         this.quantity = quantity;
     }
-    public Product( String name, String description, double price, int quantity) {
+    public Requerimiento( String name, String description, double price, int quantity) {
         this.name = name;
         this.description = description;
         this.price = price;
         this.quantity = quantity;
     }
-    public Product() {
+    public Requerimiento() {
     }
     public int getId() {
         return id;
