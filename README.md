@@ -2,8 +2,7 @@
 
 ## Dependencies 
 
-´´´ 
-    xml
+```xml
 
     <dependencies>
 		<dependency>
@@ -51,6 +50,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-´´´
+```
 
 <!-- https://www.javaguides.net/2019/01/springboot-postgresql-jpa-hibernate-crud-restful-api-tutorial.html -->
