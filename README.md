@@ -2,6 +2,12 @@
 
 ## Dependencies 
 
+- JsonWebToken
+- Spring Framework
+- JPA
+- PostgresSQL
+
+
 ```xml
 
     <dependencies>
